@@ -1,0 +1,130 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employee Login</title>
+	<meta charset="utf-8">
+	<!--  <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> --> 
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+	body{
+		
+        width: 95%;
+	min-height: 87vh;
+	 background-color:lavender;
+	/* background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(wabte1.jpg); */ 
+	background-position: center;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+	padding: 40px 30px;
+	background: rgba(211, 211, 211, .5);
+		background: linear-gradient(rgba(0,0,50,.05),rgba(0,0,50,0.5)),url(wabte1.jpg);
+	}
+a:link{
+	color: #FFF;
+}
+a:visited{
+	color: rebeccapurple;
+}
+a:active{
+	color: green;
+}
+input[type=text],input[type=email],input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+}
+
+input[type=text]:focus,[type=email]:focus,[type=password]:focus {
+  background-color: lightblue;
+}
+.btn {
+  background-color: lightskyblue;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+ .btn-ptimary{border-radius: 12px;}
+ .container {
+
+  background: rgba(76, 175, 80, 0.1);
+
+   background-color: #fff;
+  min-height: 500px;
+  width: 500px;
+  border: 3px solid lightskyblue;
+  color: #111; 
+  border-radius: 12px;
+	font-weight: 500;
+	font-size: 1.1rem;
+	text-align: center;
+	margin-bottom: 20px;
+	 display: block; 
+	text-transform: capitalize;
+  padding: 50px;
+  margin: 20px; 
+  width: 400px;
+  min-height: 400px;
+  background: #FFF;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+  /* padding: 40px 30px; */
+
+  margin: auto;
+ 
+  
+  /* padding: 10px; */
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+
+
+	<div class="login-box">
+	<div class="row">
+<div class="col-md-6 login-right">
+	
+			<h2>Employee Login</h2>
+			<form action="registration.php" method="post">
+
+				<div class="form-group">
+					<br><label>username</label>
+					<input type="text" name="name" class="form-control" >
+				</div>
+					<div class="form-group">
+					<label>email</label>
+					<input type="email" name="email" class="form-control" >
+				</div>
+				
+				<div class="form-group">
+					<label>password</label>
+					<input type="password" name="password" class="form-control"  maxlength="" >
+				</div>
+					
+				
+
+				<button type="submit" class="btn btn-ptimary"><a href="EmpDash.html">Login</a></button>
+				<!-- <p class="login-register-text">have an account?<br><a href="login.php">login here</a></p> -->
+			</form>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>
